@@ -55,25 +55,3 @@ body {
   color: var(--text-dark);
   font-family: var(--font-poppins);
 }
-
-/**
-colors:
-logo and this is brand color: #D4FB20
-navbar items text color: #F5F5F6
-Hero section title text color: #FFFFFF
-Hero description text color: #E5E6E8
-Hero section background color: #003BE2
-Input box text color: #B0B0B0
-Button text color: #242528
-button background color: #D4FB20
-every section title text color: #040819
-every section description text color: #82868E
-featured button text color: #4F4F4F
-featured button background color: #F5F5F6
-small card(title and short description) title text color: #242528
-small card(title and short description) description text color: #82868E
-card border color: #CED0D3
-card title text color: #000000
-card by text color: #003BE2
-card rating start color: #CED0D3
-*/
