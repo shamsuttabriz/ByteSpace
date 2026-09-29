@@ -9,8 +9,8 @@ const navLinks = [
 
 export default function Navbar() {
   return (
-    <header className="relative z-50 border-b border-white/10">
-      <div className="mx-auto flex h-[117px] max-w-[1200px] items-center justify-between">
+    <header className="relative z-50">
+      <div className="mx-auto flex h-[117px] myContainer  items-center justify-between">
         {/* Logo */}
         <Link
           href="/"

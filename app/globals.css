@@ -50,6 +50,24 @@
   --color-success: var(--success);
 }
 
+@layer base {
+  html {
+    scroll-behavior: smooth;
+  }
+}
+
+@layer components {
+  .myContainer {
+    @apply max-w-[1400px] mx-auto px-4;
+  }
+
+  .hero-grid {
+    background-image: linear-gradient(rgba(255, 255, 255, 0.12) 1px, transparent 1px),
+      linear-gradient(90deg, rgba(255, 255, 255, 0.12) 1px, transparent 1px);
+    background-size: 109px 109px;
+  }
+}
+
 body {
   background: var(--background);
   color: var(--text-dark);
