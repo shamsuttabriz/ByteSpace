@@ -1,9 +1,13 @@
+import Hero from "@/components/pages/landing/Hero";
+import Navbar from "@/components/shared/Navbar";
+
 export default function Home() {
   return (
-    <div>
-      <h1 className="text-3xl bg-secondary text-text-light font-bold p-4">
-        Hello world!
-      </h1>
-    </div>
+    <main>
+      <section className="relative overflow-hidden bg-[#0639D8]">
+        <Navbar />
+        <Hero />
+      </section>
+    </main>
   );
 }
